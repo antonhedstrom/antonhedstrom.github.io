@@ -1,18 +1,26 @@
+@keyframes GradientMove {
+  0%{background-position:0% 94%}
+  50%{background-position:100% 7%}
+  100%{background-position:0% 94%}
+}
+
 html, body {
-  background-color: $bg-color;
+  background: linear-gradient(220deg, #c5cce1, #bec3d4);
+  background-size: 400% 400%;
+  animation: GradientMove 30s ease infinite;
   color: $txt-color;
   font-size: $base-font-size;
   font-family: 'Open Sans', sans-serif;
 
   @media (prefers-color-scheme: dark) {
-    background-color: $bg-color-dark;
+    background: linear-gradient(220deg, #3d3f45, #283049);
     color: $txt-color-dark;
 
     a {
       color: $link-color-dark;
 
       &:hover {
-        color: lighten($link-color-dark, 20%);
+        color: lighten($link-color-dark, 10%);
       }
     }
 
@@ -27,7 +35,7 @@ a {
   text-decoration: none;
 
   &:hover {
-    color: darken($link-color, 20%);
+    color: lighten($link-color, 10%);
   }
 }
 

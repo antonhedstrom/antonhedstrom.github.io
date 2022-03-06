@@ -1,24 +1,15 @@
 @keyframes float {
   0% {
-    transform: translatey(0px);
+    transform: translatey(2px);
     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-    @media (prefers-color-scheme: dark) {
-      box-shadow: 0 5px 15px 0px rgba(150,150,150,0.6);
-    }
   }
   50% {
-    transform: translatey(-20px);
-    box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-    @media (prefers-color-scheme: dark) {
-      box-shadow: 0 25px 15px 0px rgba(150,150,150,0.2);
-    }
+    transform: translatey(-8px);
+    box-shadow: 0 20px 15px 0px rgba(0,0,0,0.2);
   }
   100% {
-    transform: translatey(0px);
+    transform: translatey(2px);
     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-    @media (prefers-color-scheme: dark) {
-      box-shadow: 0 5px 15px 0px rgba(150,150,150,0.6);
-    }
   }
 }
 

@@ -11,27 +11,37 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0.2em 0;
   padding: 0; }
 
+@keyframes GradientMove {
+  0% {
+    background-position: 0% 94%; }
+  50% {
+    background-position: 100% 7%; }
+  100% {
+    background-position: 0% 94%; } }
+
 html, body {
-  background-color: #F5F5F5;
+  background: linear-gradient(220deg, #c5cce1, #bec3d4);
+  background-size: 400% 400%;
+  animation: GradientMove 30s ease infinite;
   color: #525252;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif; }
   @media (prefers-color-scheme: dark) {
     html, body {
-      background-color: #202124;
+      background: linear-gradient(220deg, #3d3f45, #283049);
       color: #C1C2C3; }
       html a, body a {
-        color: #0960a5; }
+        color: #2196f3; }
         html a:hover, body a:hover {
-          color: #2196f3; }
+          color: #51adf6; }
       html .alt-txt-color, body .alt-txt-color {
         color: #9aa0a6; } }
 
 a {
-  color: #2196f3;
+  color: #0960a5;
   text-decoration: none; }
   a:hover {
-    color: #0960a5; }
+    color: #0c7cd5; }
 
 .alt-txt-color {
   color: #888; }
@@ -74,20 +84,14 @@ a {
 
 @keyframes float {
   0% {
-    transform: translatey(0px);
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-    @media (prefers-color-scheme: dark) {
-      box-shadow: 0 5px 15px 0px rgba(150, 150, 150, 0.6); } }
+    transform: translatey(2px);
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); }
   50% {
-    transform: translatey(-20px);
-    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
-    @media (prefers-color-scheme: dark) {
-      box-shadow: 0 25px 15px 0px rgba(150, 150, 150, 0.2); } }
+    transform: translatey(-8px);
+    box-shadow: 0 20px 15px 0px rgba(0, 0, 0, 0.2); }
   100% {
-    transform: translatey(0px);
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-    @media (prefers-color-scheme: dark) {
-      box-shadow: 0 5px 15px 0px rgba(150, 150, 150, 0.6); } } }
+    transform: translatey(2px);
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6); } }
 
 .short-info {
   margin: 0 2em 1.34em 2em; }

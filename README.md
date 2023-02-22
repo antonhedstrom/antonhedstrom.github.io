@@ -6,23 +6,11 @@ Served via [Github pages](https://pages.github.com/).
 
 # Development
 
-Npm package `serve` is being used to serve the content in this folder. Install deps with `npm install`.
+Webpack is being used.
 
 ```sh
 npm run dev
 ```
-
-## Styling
-
-_NOTE_: Do not change the `main.css` directly.
-
-Scss files can be built using:
-
-```sh
-npm run build
-```
-
-or `npm run dev` in order to watch changes in scss folder.
 
 # Deploy
 

@@ -18619,7 +18619,7 @@ const Renderer = function ( scene, options) {
     };
 
     this.shadowsDirty = function () {
-        
+
     };
 
     this.imageDirty = function () {
@@ -29842,7 +29842,7 @@ class CameraControl extends Component {
                     over = true;
                     switch (e.which) {
                         case 1: // Left button
-                            
+
                             down = true;
                             xDelta = 0;
                             yDelta = 0;
@@ -29851,7 +29851,7 @@ class CameraControl extends Component {
                             lastY = mousePos[1];
                             break;
                         case 2: // Middle/both buttons
-                            
+
                             break;
                         case 3: // Right button
                             mouseDownRight = true;
@@ -29874,10 +29874,10 @@ class CameraControl extends Component {
                     }
                     switch (e.which) {
                         case 1: // Left button
-                            
+
                             break;
                         case 2: // Middle/both buttons
-                            
+
                             break;
                         case 3: // Right button
                             mouseDownRight = false;
@@ -29896,10 +29896,10 @@ class CameraControl extends Component {
                     }
                     switch (e.which) {
                         case 1: // Left button
-                            
+
                             break;
                         case 2: // Middle/both buttons
-                            
+
                             break;
                         case 3: // Right button
                             mouseDownRight = false;
@@ -30117,7 +30117,7 @@ class CameraControl extends Component {
                         tapStartPos[0] = touches[0].pageX;
                         tapStartPos[1] = touches[0].pageY;
                     } else {
-                        
+
                     }
 
                     while (lastTouches.length < touches.length) {

@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: radial-gradient(#1e2c31, #171A1C);
+    background: radial-gradient(#293b42, #171A1C);
     background-size: 100% 100%;
     animation: ${gradientMove} 30s ease infinite;
     color: #30647E;

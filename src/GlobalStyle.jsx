@@ -1,11 +1,5 @@
 import { createGlobalStyle, keyframes } from 'styled-components'
 
-const gradientMove = keyframes`
-  0% { background-position: 0% 94%; }
-  50% { background-position: 100% 7%; }
-  100% { background-position: 0% 94%; }
-`
-
 const GlobalStyle = createGlobalStyle`
   html, body {
     height: 100%;
@@ -15,9 +9,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: radial-gradient(#293b42, #171A1C);
-    background-size: 100% 100%;
-    animation: ${gradientMove} 30s ease infinite;
+    background: #171A1C;
+    background: radial-gradient(circle, #314b55 0%, #171A1C 90%);
     color: #30647E;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;

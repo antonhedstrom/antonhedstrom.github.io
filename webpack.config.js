@@ -8,7 +8,7 @@ module.exports = {
   },
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'docs'), // Github pages only serve from root or docs.
+    path: path.resolve(__dirname, '_build'),
     clean: true,
   },
   devServer: {

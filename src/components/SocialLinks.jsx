@@ -4,7 +4,6 @@ import styled, { css } from 'styled-components';
 import GithubLogo from '../images/socials/github.svg';
 import LinkedinLogo from '../images/socials/linkedin.svg';
 import FacebookLogo from '../images/socials/facebook.svg';
-import TwitterLogo from '../images/socials/twitter.svg';
 import InstagramLogo from '../images/socials/instagram.svg';
 
 const Container = styled.div`
@@ -88,11 +87,6 @@ export const SocialLinks = () => {
     <SocialItem>
       <SocialLink href="https://www.facebook.com/antonhedstroem">
         <FacebookLogo />
-      </SocialLink>
-    </SocialItem>
-    <SocialItem>
-      <SocialLink href="https://twitter.com/antonhedstrom">
-        <TwitterLogo />
       </SocialLink>
     </SocialItem>
     <SocialItem>
